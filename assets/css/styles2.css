@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass&family=Roboto&family=Roboto+Mono&display=swap");
+
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background: #141414;
+  color: #808080;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+}
+
+.profile-gate-container {
+  display: flex;
+  justify-content: center;
+}
+.usuario {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-profile {
+  border-width: 3px;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.usuario:hover .img-profile {
+  border-color: #fff;
+}
+
+.usuario:hover label {
+  color: #fff;
+}
+
+.usuario img {
+  border-radius: 6px;
+}
+
+.choose-profile {
+  padding: 2px;
+  margin-bottom: 50px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.top-text h1 {
+  margin-top: 120px;
+  letter-spacing: 0.3mm;
+  font-weight: lighter;
+  text-align: center;
+  color: #fff;
+}
+
+.profile-list {
+  text-align: center;
+}
+
+.profile-list button {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #808080;
+  color: #808080;
+  cursor: pointer;
+  padding: 7px 23px;
+}
